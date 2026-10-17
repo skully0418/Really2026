@@ -6,7 +6,7 @@ Propuesta del equipo: un filtro bajo la tarja, hecho de unicel (poliestireno exp
 
 ## Estado al 17 oct 2026
 
-- **Material:** malla de unicel reciclado, disuelto en d-limoneno (propuesta a investigar) y hecha por inversión de fases. El electrohilado y el poliuretano se descartaron por precio.
+- **Material:** malla de unicel reciclado, disuelto en acetona y hecha por inversión de fases en agua (alternativa: d-limoneno). El electrohilado y el poliuretano se descartaron por precio.
 - **Mantenimiento:** cartucho retornable; el aliado saca el aceite.
 - **Dispositivo:** filtro de una pieza bajo la tarja, entre la coladera y el céspol. Lleva prefiltro, cámara de calma, cartucho con la malla y tubo de rebose con toma sumergida.
 - **Ruta del aceite:** epoxidación para obtener aceite epoxidado, materia prima de plastificantes de PVC y resinas (ni cosméticos ni fármacos), a 55–60 °C en baño María. Ver `documentos/ruta-epoxidacion-aceite.md`.
@@ -35,8 +35,9 @@ Propuesta del equipo: un filtro bajo la tarja, hecho de unicel (poliestireno exp
 | `documentos/` | `verificacion-puntos-5-y-6.md` | Revisión de si el material alcanza para los puntos 5 y 6 del formato |
 | `documentos/` | `notas-dra-dulce-17oct.md` | Notas de la doctora sobre la versión 03 y cómo se atiende cada una |
 | `documentos/` | `ruta-epoxidacion-aceite.md` | Epoxidación del aceite recuperado: rutas, calentamiento accesible (baño María a 55–60 °C), acidez, productos y fuentes |
+| `documentos/` | `actualizacion-disolvente-acetona.md` | Cambio de disolvente a acetona: proceso, comparación con el limoneno y sus residuos, regulación y seguridad |
 | `documentos/` | `redaccion-corregida-propuesta.md` | Textos de las secciones 2 a 6 sin contradicciones, dentro de los límites de caracteres |
-| `referencias/` | `Estudio_EPS_AVU_3_etapas.pdf` | Estudio técnico-bibliográfico del equipo (17 oct): disolvente para el unicel (d-limoneno), inversión de fases contra electrohilado y rutas de epoxidación |
+| `referencias/` | `Estudio_EPS_AVU_3_etapas.pdf` | Estudio técnico-bibliográfico del equipo (17 oct): disolvente para el unicel (recomienda d-limoneno; el equipo usa acetona y deja el limoneno como alternativa), inversión de fases contra electrohilado y rutas de epoxidación |
 | `referencias/` | `IDEAS_1_columna_EPS_o_PU.pdf` | Reporte de investigación: columna bajo tarja con EPS o PU reciclado (el PU ya se descartó) |
 | `referencias/` | `consulta-tecnica-columna-PU.pdf` | Consulta técnica anterior, con espuma de poliuretano (historial; PU descartado por precio) |
 | `scripts/` | `build_pdf.py` | Script con el que se generó el PDF de 3 hojas (ReportLab) |

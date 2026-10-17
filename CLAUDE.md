@@ -1,6 +1,6 @@
 # CLAUDE.md: contexto del proyecto Rally 2026, reutilización de aceite doméstico
 
-Corte: 17 oct 2026, 03:30 (hora CDMX). Se actualiza en cada avance y se sube al contexto del proyecto.
+Corte: 17 oct 2026, 12:40 (hora CDMX). Se actualiza en cada avance y se sube al contexto del proyecto.
 
 ## Cómo trabajar en este proyecto
 - Idioma: español.
@@ -144,3 +144,6 @@ Forma de empaque sin datos de caída de presión; acetona: muy inflamable (punto
 - 17 oct 03:00: descartadas las partículas porosas de poliestireno (se sigue con la malla). Revisión hidráulica del diseño: holgura de 2 mm que permite saltarse la malla y nivel de la cámara de calma sin fijar; propuesto flujo radial con nivel fijo (ver Pendientes 2).
 - 17 oct 03:10: rediseño v2 del filtro (flujo radial, base sellada, vertedero, campana de emergencia). Archivos generados fuera del repositorio.
 - 17 oct 03:30: disolvente cambiado a acetona, con agua como baño (la Dra. Dulce la mencionó, según el equipo); el d-limoneno queda como alternativa, con sus residuos considerados. Reemplazado donde se mencionaba el limoneno. Regulación de la acetona por verificar con el DOF.
+- 17 oct 11:40: el equipo subió el reporte final (`Reporte_Pautado_Rally_2026.pdf`, equipo 4, sede ESIQIE).
+- 17 oct 12:25: video de 2:00 con casa, cocina y escenas a color (fuera del repositorio).
+- 17 oct 12:40: revisión del diseño v2 y del reporte; preguntas probables del jurado entregadas en el chat. Fallas del diseño (cálculos con supuestos marcados): (1) con 33 mm de carga, el agua solo cruza una malla hidrofóbica con poros ≥ 78 µm (θ = 95°) o más grandes si θ es mayor; con poros de inversión de fases (≤ 10 µm) todo el caudal va por el rebose, el nivel en reposo queda en las ranuras (292 mm, 30 mm sobre la malla) y el aceite flotante nunca toca la malla: la cámara funciona solo como trampa de unos 133 mL antes de que el aceite llegue a la falda; (2) el respiradero de la campana (304.4 mm) queda bajo el nivel de rebose arriba de unos 6.6 L/min con la malla tapada: el aceite flotante se escapa por ahí; (3) al sacar el cartucho se van al céspol de 134 a 394 mL de agua con el aceite libre; (4) la altura de 370 mm puede no caber entre la coladera y la salida al muro (medir cocinas reales); (5) manteca y grasa animal solidifican en la cámara y el prefiltro. Mejoras propuestas: anillo flotante de malla en la cámara, respiradero con tubo hasta unos 325 mm y ranuras de unos 900 mm², sacar el aceite libre antes del cambio, versión más baja. En el reporte: falta citar la evidencia de sorción del poliestireno (Isık y Demir 2018, etc.) y de la epoxidación (Bourkaib 2025); no hay costo por filtro; el video muestra tela de PP como soporte, mientras el punto 6 descarta el PP como sorbente (explicar que es soporte, no sorbente).

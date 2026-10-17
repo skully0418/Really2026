@@ -1,5 +1,8 @@
 # Contexto del proyecto — Rally 2026, Desafío 07 "Reutilización de aceite doméstico"
 
+> **Actualización 17 oct 2026:** el poliuretano (PU) se descartó por precio; el material vigente es la malla de poliestireno de unicel reciclado y la ruta del aceite es la epoxidación. Lo que este documento dice del PU queda como historial. Estado actual en `CLAUDE.md`.
+
+
 > Archivo para continuar el trabajo en otro chat. Resume todo lo trabajado hasta el 16 oct 2026.
 > **Estado actual:** la propuesta vigente es la **versión 3** (sección 5). Las versiones 1 y 2 se descartaron por la evidencia de la sección 4.
 

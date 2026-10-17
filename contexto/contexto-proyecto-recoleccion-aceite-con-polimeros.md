@@ -1,5 +1,8 @@
 # Contexto del proyecto reto aceite usado: estado, hipótesis, datos y faltantes (corte 16 oct 2026)
 
+> **Actualización 17 oct 2026:** el poliuretano (PU) se descartó por precio; el material vigente es la malla de poliestireno de unicel reciclado y la ruta del aceite es la epoxidación. Lo que este documento dice del PU queda como historial. Estado actual en `CLAUDE.md`.
+
+
 Oct 16, 2026 · @Alejandro
 
 ## Estado actual

@@ -1,5 +1,8 @@
 # Consulta técnica para la Dra. Dulce: sorbente de poliestireno reciclado para aceite de cocina
 
+> **Actualización 17 oct 2026:** el poliuretano (PU) se descartó por precio; el material vigente es la malla de poliestireno de unicel reciclado y la ruta del aceite es la epoxidación. Lo que este documento dice del PU queda como historial. Estado actual en `CLAUDE.md`.
+
+
 16 oct 2026 · Exportado del documento de Claude: https://claude.ai/code/artifact/c6aeb3c3-2423-4730-8e22-2729f72f9df4
 
 ## Qué le pedimos

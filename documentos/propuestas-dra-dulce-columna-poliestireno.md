@@ -1,5 +1,8 @@
 # Propuestas de la Dra. Dulce: columna empacada con poliestireno reciclado
 
+> **Actualización 17 oct 2026:** el poliuretano (PU) se descartó por precio; el material vigente es la malla de poliestireno de unicel reciclado y la ruta del aceite es la epoxidación. Lo que este documento dice del PU queda como historial. Estado actual en `CLAUDE.md`.
+
+
 16 oct 2026 · Exportado del documento de Claude: https://claude.ai/code/artifact/2c76dd6f-472a-4ea7-bef6-bedf1a94e010
 
 ## Resumen

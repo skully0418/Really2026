@@ -36,7 +36,7 @@ El poliestireno reciclado transformado en mallas o fibras para absorber aceite y
 
 | Estudio | Material | Resultado | Qué implica |
 | --- | --- | --- | --- |
-| [Isık y Demir 2018](https://research-information.bris.ac.uk/en/publications/tailored-electrospun-fibers-from-waste-polystyrene-for-high-oil-a/) | Unicel de desecho disuelto en THF y DMF y electrohilado | Hasta 124 g/g y 99 % de separación en aguas aceitosas | Es casi exactamente la idea del audio 3 |
+| [Isık y Demir 2018](https://research-information.bris.ac.uk/en/publications/tailored-electrospun-fibers-from-waste-polystyrene-for-high-oil-a/) | Unicel de desecho disuelto en THF y DMF y electrohilado | Hasta 124 g/g y 99 % de separación en aguas aceitosas | Es casi exactamente la idea del audio 3. Nosotros proponemos investigar d-limoneno en lugar de THF y DMF |
 | [Lin et al. 2012](https://agris.fao.org/search/en/records/65de9d2c4c5aef494fdcb20e) | Fibras nanoporosas de poliestireno (no reciclado) | Unos 112 g/g con aceite de soya y 97 g/g con aceite de girasol | Hay datos con aceites comestibles |
 | [Budlayan et al. 2021](https://doaj.org/article/d7168bb5bdb5411d87e0cc3bf4884d4c) | Microfibras de unicel de desecho hiladas con una centrífuga adaptada | Unos 15.5 g/g | Hay una vía de fabricación sin electrohilado |
 | [Akanji e Iwarere 2024](https://doaj.org/article/21b9179005be498da85347c31e291e95) | Unicel de desecho con óxido de grafeno reducido | Reúso comprobado hasta el tercer ciclo | Pocos ciclos de reúso |
@@ -68,7 +68,7 @@ Tres decisiones pendientes del equipo: qué forma de empaque se elige, si la esp
 El mayor riesgo es de ingeniería, no de idea: faltan datos de columna y de regeneración.
 
 - **Forma del empaque.** Esferas, mallas o aerogeles se comportan distinto en un lecho. No tenemos datos de caída de presión de ninguna.
-- **Fabricación.** El electrohilado usa solventes como THF y DMF y equipo de alto voltaje. Debe hacerse en laboratorio; hay que decir cómo se manejan esos solventes.
+- **Fabricación.** El electrohilado usa solventes como THF y DMF y equipo de alto voltaje. Debe hacerse en laboratorio; hay que decir cómo se manejan esos solventes. (Actualización 17 oct, 02:30: para fabricar la malla proponemos investigar d-limoneno en lugar de THF y DMF, por ser menos tóxico; el electrohilado se descarta por precio y la malla se haría por inversión de fases. Ver `referencias/Estudio_EPS_AVU_3_etapas.pdf`.)
 - **Resistencia mecánica.** Las mallas de poliestireno se vuelven frágiles tras absorber aceite, lo que complica exprimir o empacar en columna.
 - **Biodiésel.** Los ésteres metílicos disuelven el poliestireno, así que cualquier fibra que se desprenda puede subir la viscosidad del aceite recuperado. Nunca lavar el empaque con biodiésel.
 - **Agua con detergente.** No hay datos con detergente de trastes real ni con aceite de cocina usado.
@@ -83,7 +83,7 @@ Son las que más cambiarían la propuesta si la respuesta fuera negativa.
 1. ¿Qué forma de empaque recomienda para un lecho en tubería: esferas, mallas cortadas o aerogeles?
 2. ¿Hay equipo en el IPN para electrohilar o hilar poliestireno reciclado, y con qué solventes?
 3. ¿La malla se exprime en frío para regenerarla, o conviene cambiar el cartucho cuando se sature?
-4. ¿Qué hacer con los solventes THF y DMF para que el proceso siga siendo ambientalmente aceptable?
+4. ¿Qué hacer con los solventes THF y DMF para que el proceso siga siendo ambientalmente aceptable? (Actualización 17 oct, 02:30: para fabricar la malla proponemos investigar d-limoneno en lugar de THF y DMF, por ser menos tóxico; el electrohilado se descarta por precio y la malla se haría por inversión de fases. Ver `referencias/Estudio_EPS_AVU_3_etapas.pdf`.)
 5. ¿La espuma de poliuretano podría ser una alternativa o comparación dentro del mismo proyecto?
 6. ¿Podemos citar su asesoría en el reporte, y de qué forma?
 7. ¿Qué laboratorio o técnica podría repetir nuestra prueba de una hora con mejor instrumentación?

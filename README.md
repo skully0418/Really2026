@@ -6,14 +6,15 @@ Propuesta del equipo: un filtro bajo la tarja, hecho de unicel (poliestireno exp
 
 ## Estado al 17 oct 2026
 
-- **Material:** malla de unicel reciclado, hecha por electrohilado o inversión de fases. El poliuretano se descartó por precio.
+- **Material:** malla de unicel reciclado, disuelto en d-limoneno (propuesta a investigar) y hecha por inversión de fases. El electrohilado y el poliuretano se descartaron por precio.
+- **Mantenimiento:** cartucho retornable; el aliado saca el aceite.
 - **Dispositivo:** filtro de una pieza bajo la tarja, entre la coladera y el céspol. Lleva prefiltro, cámara de calma, cartucho con la malla y tubo de rebose con toma sumergida.
 - **Ruta del aceite:** epoxidación para obtener aceite epoxidado, materia prima de plastificantes de PVC y resinas (ni cosméticos ni fármacos), a 55–60 °C en baño María. Ver `documentos/ruta-epoxidacion-aceite.md`.
 - **Notas de la doctora sobre la versión 03:** están en `entregables/03b_Propuesta_con_notas_Dra_Dulce.pdf` y transcritas en `documentos/notas-dra-dulce-17oct.md`.
 - **Textos corregidos sin contradicciones** para las secciones 2 a 6: `documentos/redaccion-corregida-propuesta.md`.
 - **Alcance:** sin cambios por ahora.
 - **Diseño:** el modelo paramétrico y la animación están en curso y se suben al terminarlos.
-- **Pendientes principales:** fuente del proceso de inversión de fases, terminar el diseño, pasar los textos corregidos al docx, rehacer el dimensionamiento con la malla y las preguntas a la doctora (ver `CLAUDE.md`).
+- **Pendientes principales:** decidir la ruta de epoxidación (perfórmica vigente o peracético con resina, como propone el Estudio), investigar cuánto aceite retiene la malla y si se reusa, terminar el diseño, pasar los textos corregidos al docx, rehacer el dimensionamiento con la malla y las preguntas a la doctora (ver `CLAUDE.md`).
 
 ## Contenido
 
@@ -35,6 +36,7 @@ Propuesta del equipo: un filtro bajo la tarja, hecho de unicel (poliestireno exp
 | `documentos/` | `notas-dra-dulce-17oct.md` | Notas de la doctora sobre la versión 03 y cómo se atiende cada una |
 | `documentos/` | `ruta-epoxidacion-aceite.md` | Epoxidación del aceite recuperado: rutas, calentamiento accesible (baño María a 55–60 °C), acidez, productos y fuentes |
 | `documentos/` | `redaccion-corregida-propuesta.md` | Textos de las secciones 2 a 6 sin contradicciones, dentro de los límites de caracteres |
+| `referencias/` | `Estudio_EPS_AVU_3_etapas.pdf` | Estudio técnico-bibliográfico del equipo (17 oct): disolvente para el unicel (d-limoneno), inversión de fases contra electrohilado y rutas de epoxidación |
 | `referencias/` | `IDEAS_1_columna_EPS_o_PU.pdf` | Reporte de investigación: columna bajo tarja con EPS o PU reciclado (el PU ya se descartó) |
 | `referencias/` | `consulta-tecnica-columna-PU.pdf` | Consulta técnica anterior, con espuma de poliuretano (historial; PU descartado por precio) |
 | `scripts/` | `build_pdf.py` | Script con el que se generó el PDF de 3 hojas (ReportLab) |

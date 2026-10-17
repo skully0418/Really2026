@@ -114,6 +114,16 @@ Si la Dra. exige temperatura ambiente estricta, hay tres alternativas:
 2. Dimetildioxirano (Oxone y acetona), con más costo en reactivos.
 3. La vía enzimática a unos 45 °C, con el costo de la enzima.
 
+## Ruta alternativa por decidir: peracético con resina ácida (17 oct)
+
+El estudio del equipo (`referencias/Estudio_EPS_AVU_3_etapas.pdf`, Etapa 3) propone la Ruta B: ácido acético más agua oxigenada al 30 %, con resina Amberlite IR-120 H⁺ como catalizador reutilizable. Condiciones de partida: C=C : ácido acético : agua oxigenada = 1 : 0.5 : 1.5, resina al 10 % del aceite, 65 °C (rango 60–70 °C), 6–8 h, agitación de 600 rpm o más y agua oxigenada gota a gota durante 1–2 h. Con aceite de cocina usado reporta un valor de epóxido de 0.32–0.35 mol/100 g y resina reutilizada (Kuranska y Niemiec 2020), y 2.42 % de oxirano tras 8 h a 60 °C sin optimizar (Saputra et al. 2023).
+
+Choques con lo que dice este documento, sin resolver:
+- **Temperatura.** Aquí se dice que arriba de 60 °C el epóxido se degrada, pero ese dato viene de la ruta perfórmica. El Estudio parte de 65 °C. Si se adopta la Ruta B, conviene fijarla en 60 °C, la temperatura de Saputra.
+- **Tiempo.** 3 h aquí contra 6–8 h.
+- **Equipo.** "Cualquier estufa" no basta: hacen falta agitación fuerte y dosificación lenta, aunque una parrilla con agitador magnético y un baño María pueden servir (supuesto).
+- **Conversión.** Con aceite de cocina usado, 2.42 % de oxirano es cerca del 41 % del máximo teórico si el índice de yodo es 100 (cálculo nuestro). Es menos que el 84.2 % de Bourkaib con la ruta perfórmica.
+
 ## Pendientes
 
 1. Confirmar con la Dra. qué significa "epóxido cíclico básico o lineal" y si acepta el baño María a 55–60 °C en lugar de temperatura ambiente estricta.

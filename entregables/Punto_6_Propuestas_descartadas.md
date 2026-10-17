@@ -11,7 +11,7 @@ Antes de llegar a la propuesta actual (filtro bajo la tarja con unicel reciclado
 5. **Jabón como destino del aceite recuperado.** El aceite de la tarja trae detergente y restos de comida, y no debe tener contacto con la piel.
 6. **Cartucho de polipropileno como sorbente.** No había datos de que capture aceite de cocina y se estimó que retendría poco frente al aceite que genera un hogar. Solo lo usamos como precio de referencia del cartucho.
 7. **Unicel en trozos, sin transformar.** Es de celda cerrada y rígido: al exprimirlo se aplasta y no devuelve el aceite. En el único ensayo de campo que encontramos, con petróleo crudo, el autor concluye que el sorbente no se puede reutilizar y que el aceite absorbido no se puede recolectar o no es económico hacerlo (Naser, 2014). Además, el biodiésel disuelve el poliestireno expandido y eleva su viscosidad (Yamane y Kawasaki, 2015). Por eso conservamos el unicel, pero transformado en malla.
-8. **Unicel disuelto en limoneno.** No encontramos evidencia de que ese material se exprima y se reutilice.
+8. **Unicel disuelto en limoneno usado tal cual como esponja.** No encontramos evidencia de que ese material se exprima y se reutilice. El limoneno se conserva, pero solo como solvente para fabricar la malla.
 9. **Espuma de poliuretano reciclada.** Su precio no la hace viable y el poliestireno reciclado ofrece mejor viabilidad ambiental: da otra vida a un residuo de un solo uso que casi no se recicla en México (0.1 %, según RECIT-UABC).
 10. **Oxidar el aceite solo con temperatura y aire.** No encontramos fuente de que así se obtengan epóxidos; usamos epoxidación con perácido (Bourkaib et al., 2025).
 
@@ -23,6 +23,8 @@ Antes de llegar a la propuesta actual (filtro bajo la tarja con unicel reciclado
 - **Biodiésel:** se quitó la cifra de costo (11 a 14 MXN/L) porque no tiene fuente primaria.
 - **Bourkaib et al. 2025 y Alcaldía Cuauhtémoc 2025:** solo se leyeron en resumen o nota; revisar antes de entregar.
 - **No usado:** Guazzotti et al. 2022 (poliestireno cristal, no expandido, se vuelve quebradizo en aceite de oliva).
+
+- **Limoneno (17 oct, 02:30):** el punto 8 se aclaró para no contradecir la propuesta vigente, que usa d-limoneno como solvente para hacer la malla. El mismo cambio se aplicó al formato docx.
 
 ## Referencias para el punto 7
 - Naser, M. I. (2014). *Expended Polystyrene (EPS) Waste as Sorbent for Crude Oil Spill Cleanup: From Laboratory Experiments to Field Application*. SPE-172000-MS, ADIPEC 2014.

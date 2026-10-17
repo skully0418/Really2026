@@ -2,7 +2,8 @@
 
 17 oct 2026. Textos de reemplazo para la versión 03 (`entregables/03_Propuesta_centrada_con_Dra_Dulce_casi_final.docx`) y borrador de las secciones del reporte. Cambios aplicados:
 
-- **Material.** Malla de poliestireno de unicel reciclado. El poliuretano se descartó por precio.
+- **Material.** Malla de poliestireno de unicel reciclado, disuelto en d-limoneno y hecha por inversión de fases. El electrohilado y el poliuretano se descartaron por precio.
+- **Mantenimiento.** Cartucho retornable.
 - **Ruta del aceite.** Epoxidación con fuente, en lugar de "oxidación solo con temperatura".
 - **Producto.** Plastificantes y resinas; ni cosméticos ni fármacos.
 - **Diseño.** El filtro integra prefiltro, cámara de calma, malla y rebose.
@@ -14,10 +15,10 @@ Los conteos de caracteres incluyen espacios. Límites del formato: solución 125
 
 Queremos atrapar en casa el aceite de cocina que hoy se va por la tarja con un filtro oleofílico hecho de unicel reciclado y transformado en malla, y convertir el aceite atrapado en aceite epoxidado, materia prima para plastificantes y resinas. Así también se revaloriza el poliestireno expandido, un residuo de un solo uso.
 
-## 2. Descripción de la solución (924 de 1250 caracteres)
+## 2. Descripción de la solución (961 de 1250 caracteres)
 
 <!-- solucion -->
-Proponemos un filtro que se instala bajo la tarja de hogares y comercios, entre la coladera y el céspol, como los filtros de agua domésticos. Una carcasa de polipropileno con roscas contiene un prefiltro que detiene los restos de comida, una cámara donde el aceite libre flota y queda retenido, y un cartucho con una malla de poliestireno expandido (unicel) reciclado. El unicel se disuelve y se transforma en malla por electrohilado o por inversión de fases; la malla es oleofílica e hidrofóbica, así que retiene el aceite por afinidad química y deja pasar el agua. Si la malla se satura, un tubo de rebose con toma sumergida evita que la tarja se tape sin dejar salir el aceite que flota. Cada cierto tiempo se retira el cartucho, se recupera el aceite y se entrega a un laboratorio o planta aliada que lo epoxida con agua oxigenada y ácido fórmico. El aceite epoxidado se usa como plastificante de PVC o en resinas epoxi.
+Proponemos un filtro que se instala bajo la tarja de hogares y comercios, entre la coladera y el céspol, como los filtros de agua domésticos. Una carcasa de polipropileno con roscas contiene un prefiltro que detiene los restos de comida, una cámara donde el aceite libre flota y queda retenido, y un cartucho con una malla de poliestireno expandido (unicel) reciclado. El unicel se disuelve en d-limoneno, un solvente de cáscara de cítricos, y se transforma en malla por inversión de fases; la malla es oleofílica e hidrofóbica, así que retiene el aceite por afinidad química y deja pasar el agua. Si la malla se satura, un tubo de rebose con toma sumergida evita que la tarja se tape sin dejar salir el aceite que flota. El cartucho es retornable: el lleno se cambia por uno limpio y va a un laboratorio o planta aliada que saca el aceite y lo epoxida con agua oxigenada y ácido fórmico. El aceite epoxidado se usa como plastificante de PVC o en resinas epoxi.
 <!-- /solucion -->
 
 ## 3. Impacto (546 de 1000)
@@ -34,10 +35,10 @@ La versión 03 dice "sociedad mexiquense", pero los datos son de la CDMX. Hay qu
 Hay estudios de mallas de poliestireno reciclado que absorben aceite en laboratorio (Isık y Demir 2018) y de epoxidación de aceite de cocina usado (Bourkaib et al. 2025), pero no encontramos un filtro bajo la tarja, para hogares y comercios, que use unicel posconsumo transformado en malla, ni un sistema que conecte ese filtro con la producción de aceite epoxidado. La novedad es la integración: un residuo plástico se vuelve el medio que atrapa otro residuo, el aceite, y este se convierte en materia prima para plastificantes o resinas. No reclamamos como nuevos el material ni la reacción, que ya están publicados.
 <!-- /innovacion -->
 
-## 5. Prefactibilidad económica, social y ambiental (1175 de 1500)
+## 5. Prefactibilidad económica, social y ambiental (1213 de 1500)
 
 <!-- prefactibilidad -->
-La carcasa se puede fabricar en polipropileno, un plástico barato y producido en grandes volúmenes; el prototipo se imprime en PETG. El relleno usa unicel de desecho, sin costo de materia prima, aunque convertirlo en malla requiere solventes y equipo de laboratorio, que se concentrarían en un taller o laboratorio aliado y no en los hogares. La epoxidación usa reactivos comunes (agua oxigenada y ácido fórmico) y funciona con aceite de cocina usado con un pretratamiento sencillo: filtrar, secar y neutralizar si la acidez es alta. Basta un baño María a 55–60 °C durante unas 3 horas, alcanzable con cualquier estufa; no se calienta más porque arriba de 60 °C el epóxido se degrada. Para el usuario, el beneficio principal es evitar el destape del drenaje (4,400 a 12,000 pesos) y la multa. Socialmente, el mantenimiento es un solo gesto periódico, parecido a cambiar un filtro de agua. Ambientalmente, retiene aceite que hoy contamina el agua, reutiliza un plástico de un solo uso y produce un plastificante que puede sustituir ftalatos como el DOP. Falta estimar el costo por filtro, la vida útil de la malla, el manejo de los solventes y el destino del relleno saturado.
+La carcasa se puede fabricar en polipropileno, un plástico barato y producido en grandes volúmenes; el prototipo se imprime en PETG. El relleno usa unicel de desecho, sin costo de materia prima, aunque convertirlo en malla requiere d-limoneno, un solvente de origen cítrico que se recupera por destilación, y un taller o laboratorio aliado, no los hogares. La epoxidación usa reactivos comunes (agua oxigenada y ácido fórmico) y funciona con aceite de cocina usado con un pretratamiento sencillo: filtrar, secar y neutralizar si la acidez es alta. Basta un baño María a 55–60 °C durante unas 3 horas, alcanzable con cualquier estufa; no se calienta más porque arriba de 60 °C el epóxido se degrada. Para el usuario, el beneficio principal es evitar el destape del drenaje (4,400 a 12,000 pesos) y la multa. Socialmente, el mantenimiento es un solo gesto: cambiar el cartucho retornable, como un garrafón de agua. Ambientalmente, retiene aceite que hoy contamina el agua, reutiliza un plástico de un solo uso y produce un plastificante que puede sustituir ftalatos como el DOP. Falta investigar cuánto aceite retiene la malla, cuántas veces se reusa el cartucho, el costo por filtro y el destino final del relleno.
 <!-- /prefactibilidad -->
 
 ## 6. Propuestas descartadas
@@ -52,7 +53,7 @@ La carcasa se puede fabricar en polipropileno, un plástico barato y producido e
 8. **Cartucho de polipropileno.** Retiene poco aceite para lo que genera un hogar.
 9. **Unicel en trozos, sin transformar.** Se aplasta y no suelta el aceite (Naser 2017).
 10. **Espuma de poliuretano reciclada.** Su precio no la hace viable; además ya está patentada o desarrollada (BASF, Oleo Sponge, Smart Sponge).
-11. **Unicel disuelto en limoneno.** No hay evidencia de que se exprima y se reutilice.
+11. **Unicel disuelto en limoneno usado tal cual como esponja.** No hay evidencia de que se exprima y se reutilice. El limoneno se conserva, pero solo como solvente para fabricar la malla.
 12. **Oxidar el aceite "solo con temperatura y aire".** No encontramos fuente de que así se obtengan epóxidos; se sustituye por la epoxidación con perácido.
 
 ## Segunda mitad del documento para la Dra. (reemplazos)

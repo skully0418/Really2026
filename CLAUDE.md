@@ -1,6 +1,6 @@
 # CLAUDE.md: contexto del proyecto Rally 2026, reutilización de aceite doméstico
 
-Corte: 17 oct 2026, 02:45 (hora CDMX). Se actualiza en cada avance y se sube al contexto del proyecto.
+Corte: 17 oct 2026, 03:00 (hora CDMX). Se actualiza en cada avance y se sube al contexto del proyecto.
 
 ## Cómo trabajar en este proyecto
 - Idioma: español.
@@ -86,7 +86,6 @@ Forma de empaque sin datos de caída de presión; el d-limoneno es menos tóxico
 ## Por investigar en literatura (siguiente paso de la idea)
 - Cuánto aceite de cocina retiene una malla o membrana de unicel hecha con d-limoneno e inversión de fases (g/g). No hay dato publicado.
 - Cuántas veces se recupera el limoneno por destilación (solo hay simulación, 99.96 %, Hernández-García et al. 2024).
-- Si hay datos de partículas porosas de poliestireno precipitado empacadas en columna (encaja con la columna de esferas que propuso la doctora en los audios).
 
 ## Para experimentar a futuro (requiere pruebas, no se puede investigar ahora)
 - Recubrir una tela no tejida de polipropileno con el unicel disuelto en limoneno y precipitarlo en etanol, para que los poros grandes los ponga la tela y el poliestireno aporte la afinidad por el aceite (texto para el equipo en el chat del 17 oct, 02:30).
@@ -111,7 +110,7 @@ Forma de empaque sin datos de caída de presión; el d-limoneno es menos tóxico
 
 ## Pendientes
 1. Hecho: la fuente del proceso de inversión de fases está en `referencias/Estudio_EPS_AVU_3_etapas.pdf`. Falta decidir la ruta de epoxidación: la vigente es perfórmica (55–60 °C, 3 h, Bourkaib 2025); el Estudio propone peracético con resina ácida a 65 °C durante 6–8 h, con agitación ≥ 600 rpm. Si se adopta, conviene bajarla a 60 °C para no contradecir el límite de 60 °C.
-2. Terminar el diseño con la malla de poliestireno (los parámetros del modelo ya dicen "malla"; falta definir cómo se saca el aceite de la malla) y subir modelo, STEP, STL y animación.
+2. Diseño, revisión del 17 oct 02:30: (a) entre la jaula (Ø96) y el cuerpo (Ø100) queda una holgura de 2 mm abierta hasta el cono; el agua la usaría para saltarse la malla, así que hay que sellarla; (b) la cámara de calma solo retiene aceite si hay un nivel de agua permanente, y hoy ese nivel depende de que la malla frene el flujo. Acomodo propuesto: flujo radial de afuera hacia adentro (como los cartuchos de filtro de agua), salida solo por la toma sumergida, nivel fijado por el borde del rebose, cara superior de la malla al nivel donde flota el aceite y un rebose de emergencia más alto. Además, terminar el diseño con la malla de poliestireno (los parámetros del modelo ya dicen "malla"; falta definir cómo se saca el aceite de la malla) y subir modelo, STEP, STL y animación.
 3. Pasar al docx de la versión 03 los textos de `documentos/redaccion-corregida-propuesta.md` y corregir las erratas listadas en las notas.
 4. Rehacer el dimensionamiento del cartucho con las capacidades de la malla de poliestireno.
 5. Preguntar a la doctora: significado de "epóxido cíclico básico o lineal"; si acepta el baño María a 55–60 °C en lugar de temperatura ambiente estricta; umbral de acidez y pretratamiento; cómo sacar el aceite de la malla; consentimiento para citarla.
@@ -140,3 +139,4 @@ Forma de empaque sin datos de caída de presión; el d-limoneno es menos tóxico
 - 17 oct 01:20: punto 6 redactado y pegado en el formato (`entregables/Punto_6_Propuestas_descartadas.md` y `entregables/Formato_obligatorio_con_Punto_6_Propuestas_descartadas.docx`): 10 propuestas descartadas. Verificadas Naser (SPE-172000-MS, 2014; frase sobre no reutilizar ni recolectar el aceite) y Yamane y Kawasaki 2015 (el biodiésel disuelve EPS). Decisiones de la usuaria: epoxidación como destino final; fertilizante descartado por costos y viabilidad económica y social, enfocándose en el filtro; PU descartado por precio y por mejor viabilidad ambiental del poliestireno reciclado; la Dra. Dulce autorizó mencionar su asesoría. Pendiente: referencias del punto 7 (Naser, Yamane y Kawasaki, RECIT, Bourkaib, Cuauhtémoc) y revisar Bourkaib y Cuauhtémoc, leídos solo en resumen.
 - 17 oct 02:30: revisado `referencias/Estudio_EPS_AVU_3_etapas.pdf`. Disolvente: d-limoneno como propuesta a investigar en lugar de THF/DMF (agregado donde se mencionaban). Electrohilado descartado por precio; la malla se haría por inversión de fases. Mantenimiento: cartucho retornable. Agregada la lista "Por investigar". La viabilidad de la malla como sorbente sigue sin demostrarse (sin dato de capacidad; poros demasiado finos para flujo por gravedad). La Ruta B del Estudio contradice la ruta perfórmica vigente; queda por decidir. Estudio movido de la raíz a `referencias/`.
 - 17 oct 02:45: "Por investigar" se separa en literatura y en experimentos a futuro; la tela de PP recubierta queda como experimento a futuro. Agregados el riesgo del agua caliente y la nota de usar "expandido", no "expandible".
+- 17 oct 03:00: descartadas las partículas porosas de poliestireno (se sigue con la malla). Revisión hidráulica del diseño: holgura de 2 mm que permite saltarse la malla y nivel de la cámara de calma sin fijar; propuesto flujo radial con nivel fijo (ver Pendientes 2).

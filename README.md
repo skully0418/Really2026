@@ -4,10 +4,16 @@ Rally Latinoamericano de Innovación 2026, desafío 07: **Reutilización de acei
 
 Propuesta del equipo: un filtro bajo la tarja, hecho de unicel (poliestireno expandido) reciclado y transformado, que atrape el aceite de cocina antes de que llegue al drenaje. Asesoría técnica: Dra. Dulce María González García (su nombre y opinión se citan solo con su consentimiento expreso).
 
-## Estado al 16 oct 2026
+## Estado al 17 oct 2026
 
-- La versión casi final de la propuesta es la centrada con la Dra. Dulce: `entregables/03_Propuesta_centrada_con_Dra_Dulce_casi_final.docx`. Cambia el destino del aceite: en lugar de entregarlo a un acopiador de biodiésel, propone oxidarlo para obtener moléculas epoxidadas para detergentes o resinas, y amplía el alcance a algunos restaurantes que no cumplen la norma.
-- Pendientes principales: decidir el material (mallas de poliestireno o espuma de poliuretano como plan B), la forma del sorbente y la ruta del aceite; recibir la revisión de la doctora; redactar el reporte de pautado dentro de los límites de caracteres.
+- **Material:** malla de unicel reciclado, hecha por electrohilado o inversión de fases. El poliuretano se descartó por precio.
+- **Dispositivo:** filtro de una pieza bajo la tarja, entre la coladera y el céspol. Lleva prefiltro, cámara de calma, cartucho con la malla y tubo de rebose con toma sumergida.
+- **Ruta del aceite:** epoxidación para obtener aceite epoxidado, materia prima de plastificantes de PVC y resinas (ni cosméticos ni fármacos), a 55–60 °C en baño María. Ver `documentos/ruta-epoxidacion-aceite.md`.
+- **Notas de la doctora sobre la versión 03:** están en `entregables/03b_Propuesta_con_notas_Dra_Dulce.pdf` y transcritas en `documentos/notas-dra-dulce-17oct.md`.
+- **Textos corregidos sin contradicciones** para las secciones 2 a 6: `documentos/redaccion-corregida-propuesta.md`.
+- **Alcance:** sin cambios por ahora.
+- **Diseño:** el modelo paramétrico y la animación están en curso y se suben al terminarlos.
+- **Pendientes principales:** fuente del proceso de inversión de fases, terminar el diseño, pasar los textos corregidos al docx, rehacer el dimensionamiento con la malla y las preguntas a la doctora (ver `CLAUDE.md`).
 
 ## Contenido
 
@@ -22,10 +28,14 @@ Propuesta del equipo: un filtro bajo la tarja, hecho de unicel (poliestireno exp
 | `entregables/` | `01_Propuesta_equipo_para_Dra_Dulce_v1.pdf` | Propuesta del equipo de 3 hojas para la doctora, con patentes y proyectos similares |
 | `entregables/` | `02_Consulta_tecnica_equipo_para_Dra_Dulce.pdf` | Consulta técnica completa del equipo para la doctora (8 páginas) |
 | `entregables/` | `03_Propuesta_centrada_con_Dra_Dulce_casi_final.docx` y `.md` | Propuesta centrada con ayuda de la doctora, casi definitiva (la `.md` es una conversión para leerla en GitHub) |
+| `entregables/` | `03b_Propuesta_con_notas_Dra_Dulce.pdf` | Versión 03 con las notas escritas de la doctora (17 oct) |
 | `formato/` | `Formato_obligatorio_Reporte_Pautado_Rally_2026.docx` | Formato obligatorio del reporte de pautado (7 puntos) |
 | `documentos/` | `verificacion-puntos-5-y-6.md` | Revisión de si el material alcanza para los puntos 5 y 6 del formato |
-| `referencias/` | `IDEAS_1_columna_EPS_o_PU.pdf` | Reporte de investigación: columna bajo tarja con EPS o PU reciclado |
-| `referencias/` | `consulta-tecnica-columna-PU.pdf` | Consulta técnica anterior, con espuma de poliuretano |
+| `documentos/` | `notas-dra-dulce-17oct.md` | Notas de la doctora sobre la versión 03 y cómo se atiende cada una |
+| `documentos/` | `ruta-epoxidacion-aceite.md` | Epoxidación del aceite recuperado: rutas, calentamiento accesible (baño María a 55–60 °C), acidez, productos y fuentes |
+| `documentos/` | `redaccion-corregida-propuesta.md` | Textos de las secciones 2 a 6 sin contradicciones, dentro de los límites de caracteres |
+| `referencias/` | `IDEAS_1_columna_EPS_o_PU.pdf` | Reporte de investigación: columna bajo tarja con EPS o PU reciclado (el PU ya se descartó) |
+| `referencias/` | `consulta-tecnica-columna-PU.pdf` | Consulta técnica anterior, con espuma de poliuretano (historial; PU descartado por precio) |
 | `scripts/` | `build_pdf.py` | Script con el que se generó el PDF de 3 hojas (ReportLab) |
 
 Documentos en línea (Claude): [Propuestas de la Dra. Dulce](https://claude.ai/code/artifact/2c76dd6f-472a-4ea7-bef6-bedf1a94e010) · [Consulta técnica](https://claude.ai/code/artifact/c6aeb3c3-2423-4730-8e22-2729f72f9df4)

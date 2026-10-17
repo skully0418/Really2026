@@ -1,6 +1,6 @@
 # CLAUDE.md: contexto del proyecto Rally 2026, reutilización de aceite doméstico
 
-Corte: 17 oct 2026, 03:00 (hora CDMX). Se actualiza en cada avance y se sube al contexto del proyecto.
+Corte: 17 oct 2026, 03:10 (hora CDMX). Se actualiza en cada avance y se sube al contexto del proyecto.
 
 ## Cómo trabajar en este proyecto
 - Idioma: español.
@@ -20,7 +20,7 @@ El desafío: proponer una forma económica y accesible de reutilizar aceite dom�
 - **Mantenimiento: cartucho retornable.** El usuario cambia el cartucho lleno por uno limpio y el lleno va al taller o laboratorio aliado, que saca el aceite. Se decidió así porque todavía no sabemos qué método de extracción del aceite funciona mejor (exprimir, centrifugar o lavar con solvente).
 - **Ruta del aceite: epoxidación** para obtener aceite epoxidado, materia prima de plastificantes de PVC y resinas epoxi. No va a cosméticos ni fármacos (sector regulado, nota de la doctora). La ruta con más datos con aceite usado es el ácido perfórmico generado in situ (agua oxigenada al 30 % más ácido fórmico), a 55–60 °C durante unas 3 h en baño María. Ese calentamiento se logra con cualquier estufa y nunca pasa de unos 100 °C; no se calienta más porque arriba de 60 °C el epóxido se degrada. Los detergentes se retiran como destino; el enfoque es solo epóxidos. La versión 03 decía "oxidar solo con temperatura y aire", y eso no tiene fuente: se retira. Detalle en `documentos/ruta-epoxidacion-aceite.md`.
 - **Alcance:** sin cambios por ahora (hogares, fondas y "algunos restaurantes que no cumplan las normas", como dice la versión 03). La doctora anotó "Los restaurantes ya tienen ruta"; queda pendiente.
-- **Diseño:** modelo paramétrico (Onshape FeatureScript, STEP y STL) y animación del funcionamiento hechos el 17 oct. Se terminan con la nueva información (malla en lugar de espuma) y después se suben al repositorio.
+- **Diseño:** versión 2 del modelo paramétrico (Onshape FeatureScript, STEP y STL), 17 oct: flujo radial con nivel fijo (ver Pendientes 2). La animación sigue mostrando la versión 1. Se suben al repositorio cuando el equipo lo apruebe.
 - No se usa en jabón ni en nada con contacto humano.
 
 ## Lo que dijo la doctora en los audios (transcripción Whisper "small", con partes dudosas)
@@ -110,7 +110,7 @@ Forma de empaque sin datos de caída de presión; el d-limoneno es menos tóxico
 
 ## Pendientes
 1. Hecho: la fuente del proceso de inversión de fases está en `referencias/Estudio_EPS_AVU_3_etapas.pdf`. Falta decidir la ruta de epoxidación: la vigente es perfórmica (55–60 °C, 3 h, Bourkaib 2025); el Estudio propone peracético con resina ácida a 65 °C durante 6–8 h, con agitación ≥ 600 rpm. Si se adopta, conviene bajarla a 60 °C para no contradecir el límite de 60 °C.
-2. Diseño, revisión del 17 oct 02:30: (a) entre la jaula (Ø96) y el cuerpo (Ø100) queda una holgura de 2 mm abierta hasta el cono; el agua la usaría para saltarse la malla, así que hay que sellarla; (b) la cámara de calma solo retiene aceite si hay un nivel de agua permanente, y hoy ese nivel depende de que la malla frene el flujo. Acomodo propuesto: flujo radial de afuera hacia adentro (como los cartuchos de filtro de agua), salida solo por la toma sumergida, nivel fijado por el borde del rebose, cara superior de la malla al nivel donde flota el aceite y un rebose de emergencia más alto. Además, terminar el diseño con la malla de poliestireno (los parámetros del modelo ya dicen "malla"; falta definir cómo se saca el aceite de la malla) y subir modelo, STEP, STL y animación.
+2. Diseño v2 hecho (17 oct 02:50, fuera del repositorio hasta que se apruebe): flujo radial de afuera hacia adentro, base del cartucho sellada con junta tórica 95×3 (se cerró el paso de 2 mm por fuera de la malla), vertedero que fija el nivel 3 mm bajo la malla, colector perforado Ø32, campana con toma sumergida como rebose de emergencia, postes de la tapa en lugar de bayoneta y rejilla arriba. Malla 0.83 L; altura 370 mm. Falta actualizar la animación y subir los archivos cuando el equipo lo apruebe.
 3. Pasar al docx de la versión 03 los textos de `documentos/redaccion-corregida-propuesta.md` y corregir las erratas listadas en las notas.
 4. Rehacer el dimensionamiento del cartucho con las capacidades de la malla de poliestireno.
 5. Preguntar a la doctora: significado de "epóxido cíclico básico o lineal"; si acepta el baño María a 55–60 °C en lugar de temperatura ambiente estricta; umbral de acidez y pretratamiento; cómo sacar el aceite de la malla; consentimiento para citarla.
@@ -140,3 +140,4 @@ Forma de empaque sin datos de caída de presión; el d-limoneno es menos tóxico
 - 17 oct 02:30: revisado `referencias/Estudio_EPS_AVU_3_etapas.pdf`. Disolvente: d-limoneno como propuesta a investigar en lugar de THF/DMF (agregado donde se mencionaban). Electrohilado descartado por precio; la malla se haría por inversión de fases. Mantenimiento: cartucho retornable. Agregada la lista "Por investigar". La viabilidad de la malla como sorbente sigue sin demostrarse (sin dato de capacidad; poros demasiado finos para flujo por gravedad). La Ruta B del Estudio contradice la ruta perfórmica vigente; queda por decidir. Estudio movido de la raíz a `referencias/`.
 - 17 oct 02:45: "Por investigar" se separa en literatura y en experimentos a futuro; la tela de PP recubierta queda como experimento a futuro. Agregados el riesgo del agua caliente y la nota de usar "expandido", no "expandible".
 - 17 oct 03:00: descartadas las partículas porosas de poliestireno (se sigue con la malla). Revisión hidráulica del diseño: holgura de 2 mm que permite saltarse la malla y nivel de la cámara de calma sin fijar; propuesto flujo radial con nivel fijo (ver Pendientes 2).
+- 17 oct 03:10: rediseño v2 del filtro (flujo radial, base sellada, vertedero, campana de emergencia). Archivos generados fuera del repositorio.

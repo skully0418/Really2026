@@ -1,6 +1,6 @@
 # CLAUDE.md: contexto del proyecto Rally 2026, reutilización de aceite doméstico
 
-Corte: 17 oct 2026, 02:30 (hora CDMX). Se actualiza en cada avance y se sube al contexto del proyecto.
+Corte: 17 oct 2026, 02:45 (hora CDMX). Se actualiza en cada avance y se sube al contexto del proyecto.
 
 ## Cómo trabajar en este proyecto
 - Idioma: español.
@@ -81,16 +81,19 @@ Archivo: `entregables/03b_Propuesta_con_notas_Dra_Dulce.pdf`. Transcripción y c
 - Los cálculos de impacto del borrador de la sección 1 (4.5 L por hogar, 180 mil litros de agua) usaban 15 L por hogar; hay que rehacerlos con 8 L y φ de 0.37 a 0.85 (unos 3 a 6.8 L, o 120 mil a 270 mil litros de agua con el factor divulgativo).
 
 ## Riesgos técnicos
-Forma de empaque sin datos de caída de presión; el d-limoneno es menos tóxico que THF y DMF, pero es inflamable (punto de inflamación de unos 48 °C), sensibilizante de la piel y tóxico para organismos acuáticos, hierve a unos 176 °C (cuesta quitarlo de la malla) y puede hinchar poliolefinas como el polipropileno de la carcasa (secar por completo y probar compatibilidad); los poros de una membrana por inversión de fases (0.01 a 10 µm según el Estudio) son demasiado finos para que el agua pase por gravedad a través de un material hidrofóbico (con 25 cm de columna hacen falta poros de unos 59 µm o más); mallas frágiles tras absorber aceite (método para sacar el aceite por confirmar); sin datos con detergente real; caudal de grifo de 1 a 8 L/min contra 40 mL/min de la única columna publicada; aceite de la malla tratado como de acidez alta hasta medirlo; en la epoxidación, el ácido, el agua y la temperatura abren el anillo epóxido (no pasar de 60 °C); a temperatura ambiente estricta tarda más de un día; ácido fórmico y agua oxigenada son corrosivos (laboratorio o planta aliada); filtrar las fibras de poliestireno del aceite antes de epoxidar.
+Forma de empaque sin datos de caída de presión; el d-limoneno es menos tóxico que THF y DMF, pero es inflamable (punto de inflamación de unos 48 °C), sensibilizante de la piel y tóxico para organismos acuáticos, hierve a unos 176 °C (cuesta quitarlo de la malla) y puede hinchar poliolefinas como el polipropileno de la carcasa (secar por completo y probar compatibilidad); los poros de una membrana por inversión de fases (0.01 a 10 µm según el Estudio) son demasiado finos para que el agua pase por gravedad a través de un material hidrofóbico (con 25 cm de columna hacen falta poros de unos 59 µm o más); mallas frágiles tras absorber aceite (método para sacar el aceite por confirmar); sin datos con detergente real; caudal de grifo de 1 a 8 L/min contra 40 mL/min de la única columna publicada; agua caliente: el poliestireno se ablanda cerca de su transición vítrea (unos 100 °C) y el PETG del prototipo cerca de 80 °C, así que el agua hirviendo vaciada a la tarja puede deformarlos (la carcasa final de polipropileno aguanta más); en el documento decir poliestireno "expandido" (el unicel usado), no "expandible" (perlas sin inflar); aceite de la malla tratado como de acidez alta hasta medirlo; en la epoxidación, el ácido, el agua y la temperatura abren el anillo epóxido (no pasar de 60 °C); a temperatura ambiente estricta tarda más de un día; ácido fórmico y agua oxigenada son corrosivos (laboratorio o planta aliada); filtrar las fibras de poliestireno del aceite antes de epoxidar.
 
-## Por investigar (siguiente paso de la idea)
-- Cuánto aceite de cocina retiene la malla hecha con d-limoneno e inversión de fases (g/g). No hay dato publicado.
-- Si la malla se puede reusar y cuántos ciclos aguanta; con qué método se saca mejor el aceite del cartucho retornable.
-- Tamaño de poro de la malla y si el agua pasa por gravedad; si no pasa, cómo cambia el diseño.
-- Cuánto limoneno queda en la malla tras el baño de etanol y el secado, y si hincha el polipropileno.
+## Por investigar en literatura (siguiente paso de la idea)
+- Cuánto aceite de cocina retiene una malla o membrana de unicel hecha con d-limoneno e inversión de fases (g/g). No hay dato publicado.
 - Cuántas veces se recupera el limoneno por destilación (solo hay simulación, 99.96 %, Hernández-García et al. 2024).
-- Desempeño con aceite usado, detergente real y el caudal de una tarja.
-- Propuesta por discutir con el equipo: recubrir una tela no tejida de polipropileno con el unicel disuelto en limoneno y precipitarlo en etanol, para que los poros grandes los ponga la tela (texto en el chat del 17 oct, 02:30).
+- Si hay datos de partículas porosas de poliestireno precipitado empacadas en columna (encaja con la columna de esferas que propuso la doctora en los audios).
+
+## Para experimentar a futuro (requiere pruebas, no se puede investigar ahora)
+- Recubrir una tela no tejida de polipropileno con el unicel disuelto en limoneno y precipitarlo en etanol, para que los poros grandes los ponga la tela y el poliestireno aporte la afinidad por el aceite (texto para el equipo en el chat del 17 oct, 02:30).
+- Tamaño de poro real de la malla y si el agua pasa por gravedad; con detergente la presión de entrada del agua baja y podría entrar a los poros.
+- Si la malla se reusa, cuántos ciclos aguanta y con qué método se saca mejor el aceite del cartucho retornable.
+- Cuánto limoneno queda en la malla tras el baño de etanol y el secado, y si hincha el polipropileno.
+- Desempeño con aceite usado, detergente real, el caudal de una tarja y agua caliente (incluida el agua hirviendo de la pasta).
 
 ## Documentos
 - Estudio técnico-bibliográfico del equipo: `referencias/Estudio_EPS_AVU_3_etapas.pdf` (18 págs., 17 oct). Etapa 1: d-limoneno recomendado. Etapa 2: inversión de fases como línea base; el electrohilado ya se descartó por precio. Etapa 3: propone la Ruta B (ácido peracético in situ con resina Amberlite IR-120, 65 °C, 6–8 h), que choca con la ruta perfórmica vigente (ver Pendientes). Habla de carcasa de polietileno; la nuestra es de polipropileno.
@@ -136,3 +139,4 @@ Forma de empaque sin datos de caída de presión; el d-limoneno es menos tóxico
 - 17 oct 00:55: calentamiento definido como baño María a 55–60 °C (accesible con cualquier estufa, tope de unos 100 °C; arriba de 60 °C el epóxido se degrada, Budiyati 2025 y Campanella 2008). Detergentes retirados; enfoque solo en epóxidos. En el diseño y la animación el relleno se llama malla de poliestireno.
 - 17 oct 01:20: punto 6 redactado y pegado en el formato (`entregables/Punto_6_Propuestas_descartadas.md` y `entregables/Formato_obligatorio_con_Punto_6_Propuestas_descartadas.docx`): 10 propuestas descartadas. Verificadas Naser (SPE-172000-MS, 2014; frase sobre no reutilizar ni recolectar el aceite) y Yamane y Kawasaki 2015 (el biodiésel disuelve EPS). Decisiones de la usuaria: epoxidación como destino final; fertilizante descartado por costos y viabilidad económica y social, enfocándose en el filtro; PU descartado por precio y por mejor viabilidad ambiental del poliestireno reciclado; la Dra. Dulce autorizó mencionar su asesoría. Pendiente: referencias del punto 7 (Naser, Yamane y Kawasaki, RECIT, Bourkaib, Cuauhtémoc) y revisar Bourkaib y Cuauhtémoc, leídos solo en resumen.
 - 17 oct 02:30: revisado `referencias/Estudio_EPS_AVU_3_etapas.pdf`. Disolvente: d-limoneno como propuesta a investigar en lugar de THF/DMF (agregado donde se mencionaban). Electrohilado descartado por precio; la malla se haría por inversión de fases. Mantenimiento: cartucho retornable. Agregada la lista "Por investigar". La viabilidad de la malla como sorbente sigue sin demostrarse (sin dato de capacidad; poros demasiado finos para flujo por gravedad). La Ruta B del Estudio contradice la ruta perfórmica vigente; queda por decidir. Estudio movido de la raíz a `referencias/`.
+- 17 oct 02:45: "Por investigar" se separa en literatura y en experimentos a futuro; la tela de PP recubierta queda como experimento a futuro. Agregados el riesgo del agua caliente y la nota de usar "expandido", no "expandible".

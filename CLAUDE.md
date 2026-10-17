@@ -91,5 +91,6 @@ Forma de empaque sin datos de caída de presión; electrohilado con solventes t�
 - 16 oct 20:35: creado el documento de consulta técnica para la doctora, con poliestireno como eje y PU como alternativa; CLAUDE.md actualizado.
   - Supuestos que el equipo debe confirmar: PU como alternativa y no como material principal; umbrales de la prueba propuestos por nosotros (incluido desprendimiento ≤ 1 %); masa de sorbente calculada con capacidades de laboratorio, sin densidad de empaque.
 - 16 oct 20:55: generado el PDF de 3 hojas para la doctora con patentes y proyectos similares. Supuesto: "Oilx-Force" es el nombre del equipo. Sin datos de contacto ni nombres de integrantes.
-- 16 oct 23:55: el equipo envió la versión revisada (docx) de la propuesta para la doctora; se organizó todo el material en un repositorio local para subirlo a GitHub (skully0418/Really2026). Pendiente: conectar la cuenta de GitHub para poder hacer push.
+- 16 oct 23:55: el equipo envió la versión revisada (docx) de la propuesta para la doctora; se organizó todo el material en un repositorio local para subirlo a GitHub (skully0418/Really2026).
+- 17 oct 00:03: subido a GitHub (skully0418/Really2026, rama main, commit c73de2b).
 - 17 oct 00:15: verificados los puntos 5 y 6 del formato (`documentos/verificacion-puntos-5-y-6.md`): el 6 se puede redactar ya; al 5 le faltan costo por filtro, fuente de la epoxidación y fin de vida del relleno. Archivos renombrados (01 propuesta del equipo, 02 consulta técnica, 03 propuesta centrada con la doctora) y formato obligatorio agregado.

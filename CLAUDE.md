@@ -1,12 +1,12 @@
 # CLAUDE.md: contexto del proyecto Rally 2026, reutilización de aceite doméstico
 
-Corte: 17 oct 2026, 00:50 (hora CDMX). Se actualiza en cada avance y se sube al contexto del proyecto.
+Corte: 17 oct 2026, 01:20 (hora CDMX). Se actualiza en cada avance y se sube al contexto del proyecto.
 
 ## Cómo trabajar en este proyecto
 - Idioma: español.
 - Registrar aquí cada avance en la bitácora y volver a subir el archivo.
 - Afirmar solo lo que tiene fuente; marcar supuestos y datos sin verificar.
-- El nombre y la opinión de la doctora solo se usan con su consentimiento expreso.
+- La Dra. Dulce ya autorizó que se mencione su asesoría en el reporte (confirmado por la usuaria el 17 oct); falta saber de qué forma quiere aparecer.
 
 ## Qué se entrega
 Reporte de pautado de resolución del desafío "Reutilización de aceite doméstico". Secciones y límites de caracteres: 1 Problemática (1250), 2 Solución (1250), 3 Impacto (1000), 4 Innovación (1000), 5 Pre factibilidad (1500), 6 Propuestas descartadas, 7 Referencias. Equipo y sede están por completar. Plazo corto y sin pruebas propias.
@@ -123,3 +123,4 @@ Forma de empaque sin datos de caída de presión; electrohilado con solventes t�
 - 17 oct 00:15: verificados los puntos 5 y 6 del formato (`documentos/verificacion-puntos-5-y-6.md`): el 6 se puede redactar ya; al 5 le faltan costo por filtro, fuente de la epoxidación y fin de vida del relleno. Archivos renombrados (01 propuesta del equipo, 02 consulta técnica, 03 propuesta centrada con la doctora) y formato obligatorio agregado.
 - 17 oct 00:50: notas escritas de la doctora agregadas (`03b` y `notas-dra-dulce-17oct.md`). PU descartado por precio; material vigente: malla de poliestireno (electrohilado o inversión de fases). Investigada la epoxidación de aceite usado (`ruta-epoxidacion-aceite.md`); se retira la "oxidación solo con temperatura y aire" por falta de fuente. Redactadas las secciones 2 a 6 sin contradicciones (`redaccion-corregida-propuesta.md`). Alcance sin cambios. Diseño (modelo paramétrico y animación) pendiente de terminar antes de subirlo.
 - 17 oct 00:55: calentamiento definido como baño María a 55–60 °C (accesible con cualquier estufa, tope de unos 100 °C; arriba de 60 °C el epóxido se degrada, Budiyati 2025 y Campanella 2008). Detergentes retirados; enfoque solo en epóxidos. En el diseño y la animación el relleno se llama malla de poliestireno.
+- 17 oct 01:20: punto 6 redactado y pegado en el formato (`entregables/Punto_6_Propuestas_descartadas.md` y `entregables/Formato_obligatorio_con_Punto_6_Propuestas_descartadas.docx`): 10 propuestas descartadas. Verificadas Naser (SPE-172000-MS, 2014; frase sobre no reutilizar ni recolectar el aceite) y Yamane y Kawasaki 2015 (el biodiésel disuelve EPS). Decisiones de la usuaria: epoxidación como destino final; fertilizante descartado por costos y viabilidad económica y social, enfocándose en el filtro; PU descartado por precio y por mejor viabilidad ambiental del poliestireno reciclado; la Dra. Dulce autorizó mencionar su asesoría. Pendiente: referencias del punto 7 (Naser, Yamane y Kawasaki, RECIT, Bourkaib, Cuauhtémoc) y revisar Bourkaib y Cuauhtémoc, leídos solo en resumen.

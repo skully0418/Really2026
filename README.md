@@ -29,6 +29,7 @@ Propuesta del equipo: un filtro bajo la tarja, hecho de unicel (poliestireno exp
 | `entregables/` | `02_Consulta_tecnica_equipo_para_Dra_Dulce.pdf` | Consulta técnica completa del equipo para la doctora (8 páginas) |
 | `entregables/` | `03_Propuesta_centrada_con_Dra_Dulce_casi_final.docx` y `.md` | Propuesta centrada con ayuda de la doctora, casi definitiva (la `.md` es una conversión para leerla en GitHub) |
 | `entregables/` | `03b_Propuesta_con_notas_Dra_Dulce.pdf` | Versión 03 con las notas escritas de la doctora (17 oct) |
+| `entregables/` | `Punto_6_Propuestas_descartadas.md` y `Formato_obligatorio_con_Punto_6_Propuestas_descartadas.docx` | Punto 6 del formato (10 propuestas descartadas, con razones, notas y referencias); el docx es el formato con el punto 6 ya pegado |
 | `formato/` | `Formato_obligatorio_Reporte_Pautado_Rally_2026.docx` | Formato obligatorio del reporte de pautado (7 puntos) |
 | `documentos/` | `verificacion-puntos-5-y-6.md` | Revisión de si el material alcanza para los puntos 5 y 6 del formato |
 | `documentos/` | `notas-dra-dulce-17oct.md` | Notas de la doctora sobre la versión 03 y cómo se atiende cada una |
